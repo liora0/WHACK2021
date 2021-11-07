@@ -1,0 +1,64 @@
+ h1 {
+    background-color: #002776;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#addEvent {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  color: white
+}
+
+form {
+  width: 70%;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #002776;
+  padding: 1em;
+}
+
+#submitButton {
+      margin-left: 5px;
+    }
+
+footer {
+  background-color: #002776;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 30px;
+}
+
+@media all and (min-width: 768px) {
+    /* horizontal layout */
+    main {
+        flex-direction: row; 
+        justify-content: space-around;
+        padding-left: 1%;
+    }
+
+    #googleMap {
+        min-width: 60%;
+        max-width: 60%;
+        float: left;
+
+    }
+
+    form {
+      min-width: 30%;
+        max-width: 30%;
+        float: right;
+      margin-right: 5%;
+    }
+
+    #submitButton {
+      margin-left: 3%;
+      margin-top: 3px;
+    }
+}
+label {
+  color: white;
+}
